@@ -12,6 +12,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 .nav-bar-section1{
   display: flex; 
@@ -33,9 +34,22 @@ body{
   color: white;
 }
 .element-bar:hover{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
+  color: black;
+  text-decoration: underline;
+  border-radius: 2%;
 }
 .nav-bar-section2{
   padding-right: 1em;
+}
+
+/**/
+
+.div-carrusel{
+  display: flex;
+}
+.img-carrusel{
+  width: 100%;
+  height: 43em;
 }
