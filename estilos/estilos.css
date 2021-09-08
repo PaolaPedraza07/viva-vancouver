@@ -52,3 +52,16 @@ body{
   width: 100%;
   height: 43em;
 }
+.cont-texto-carrusel{
+  background-color: rgba(0, 0, 0, .6); 
+  border-radius: 15px;
+  font-family: 'florania';
+}
+.titulos-carrusel{
+  font-size: 70px;
+  margin-bottom: 0%;
+} 
+.subtitulos-carrusel{
+  font-size: 20px;
+  padding-bottom: 1em;
+}
