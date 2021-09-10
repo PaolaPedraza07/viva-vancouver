@@ -65,3 +65,20 @@ body{
   font-size: 20px;
   padding-bottom: 1em;
 }
+
+.seccion-inicio{
+  background-color: black;
+  color: white;
+}
+.seccion-titulo{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 150px;
+  font-family: 'florania';
+}
+
+.titulos{
+  font-size: 70px;
+  text-align: center;
+}
