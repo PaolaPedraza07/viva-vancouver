@@ -31,6 +31,7 @@ body{
   font-family: 'florania';
   font-size: 1.8em;
   color: white;
+  text-decoration: none;
 }
 .element-bar:hover{
   background-color: rgba(255, 255, 255, 0.9);
@@ -69,6 +70,7 @@ body{
 .seccion-inicio{
   background-color: black;
   color: white;
+  padding-top: 3em;
 }
 .seccion-titulo{
   display: flex; 
@@ -81,4 +83,36 @@ body{
 .titulos{
   font-size: 70px;
   text-align: center;
+}
+
+.seccion-rows{
+  padding-bottom: 1.5em;
+}
+#seccion-cards{
+  width: 29rem; 
+  background-color: black;
+}
+
+#seccion-cards:hover > .card-img-top{
+  filter: brightness(120%);
+}
+#seccion-cards:hover > .seccion-cards-body > .seccion-card-text{
+  font-size: 17px;
+  cursor: default;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.seccion-cards-body{
+  background-color: white;
+}
+.seccion-card-text{
+  color: rgb(0, 0, 0); 
+  font-size: 15px; 
+  margin: -10px; 
+  padding: 0px;
+}
+.texto-parrafo{
+  text-align: justify;
+  font-size: 20px;
 }

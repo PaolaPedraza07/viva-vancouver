@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'florania';
+  src: url('../fuentes/Florania.otf');
+}
+.seccion-hospedaje{
+  background-color: white;
+}
+.hospedaje-titulo{
+  font-family: 'florania';
+  font-size: 3em;
+}
+.hospedaje-img{
+  width: 25em; 
+}
+.hospedaje-desc{
+  text-align: start;
+}
